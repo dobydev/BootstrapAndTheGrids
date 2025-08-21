@@ -2,6 +2,10 @@ main>.container {
         padding: 60px 15px 0;
        }
 
+main>.container-fluid{
+  padding-top: 60px;
+}
+
 body> main{
   margin-top: 20px;
   margin-bottom: 60px;
@@ -25,5 +29,5 @@ body> main{
 }
 
 .minHeight{
-  min-height: 80vh;
+  min-height: 80vh; /* 80 vh = 80% of the veiwport height*/
 }
